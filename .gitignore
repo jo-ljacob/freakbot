@@ -1,0 +1,48 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# SolidWorks backup and temporary files
+*.sldprt~
+*.sldasm~
+*.slddrw~
+*.sldbak
+*.SWP
+*.log
+*.err
+*.old
+
+# SolidWorks PDM and generated files
+*_SaveNow.swp
+*.sldlock
+*.swl
+*.bmp
+*.emf
+*.tif
+*.png
+*.jpg
+*.mp4
+*.avi
+
+# Simulation and analysis files
+*.cwr
+*.fld
+*.out
+*.ldf
+*.mdf
+*.mot
+*.prm
+*.res
+*.sdg
+*.slddata
+*.sldsim
+*.stl
+
+# Ignore SolidWorks temporary auto-recover files
+~$*
+
+# Ignore other common project files
+*.bak
+*.tmp
+*.lock
